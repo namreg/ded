@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/namreg/ded/blob/master/LICENSE)
 [![GoDoc](https://godoc.org/github.com/namreg/ded?status.svg)](https://godoc.org/github.com/namreg/ded)
 
-Go package that detects disposable emails based on the list [list](https://github.com/wesbos/burner-email-providers).
+Go package that detects disposable emails based on the [list](https://github.com/wesbos/burner-email-providers).
 
 _Notice: DED does not check that email address is correct._
 
