@@ -29,12 +29,12 @@ func main() {
 	fmt.Println(disposable) // true
 
 	disposable, _ = ded.IsDisposableEmail("temp@google.com")
-	fmt.Println(false) // false
+	fmt.Println(disposable) // false
 
 	disposable, _ := ded.IsDisposableDomain("mail.wtf")
 	fmt.Println(disposable) // true
 
 	disposable, _ = ded.IsDisposableDomain("google.com")
-	fmt.Println(false) // false
+	fmt.Println(disposable) // false
 }
 ```
